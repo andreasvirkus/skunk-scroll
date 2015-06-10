@@ -6,6 +6,7 @@
         <meta name='robots' content='noindex' />
         <link rel="stylesheet" href="styles/demo.css" />
         <link rel="stylesheet" href="styles/main.css" />
+        <link rel="stylesheet" href="styles/prism.css" />
     </head>
     <body>
         <div id="scrollbar">
@@ -16,16 +17,16 @@
              <h2>
                 The HTML
             </h2>
-            <xmp>
+            <xmp><code class="language-markup">
                 <div id="scrollbar">
                     <div id="scrollbar-bg"></div>
                 </div>
-            </xmp>
+            </code></xmp>
 
             <h2>
                 The CSS
             </h2>
-            <pre>
+            <pre><code class="language-css">
                 #scrollbar {
                     position: fixed;
                     top: 0;
@@ -44,14 +45,14 @@
                     height: 100%;
                     background-color: #E16036;
                 }
-            </pre>
+            </code></pre>
 
             <h2>
                 The JavaScript
             </h2>
             <p>There's a pure JavaScript version and a jQuery version below it.<br/>
             Make sure you have jQuery included in your sight when using that version.</p>
-            <pre>
+            <pre><code class="language-css">
                 var bar_bg = document.getElementById("scrollbar-bg"),
                     body = document.body,
                     html = document.documentElement;
@@ -76,10 +77,10 @@
 
                     bar.style.width = bw + "%";
                 }
-            </pre>
+            </code></pre>
 
             <p>jQuery</p>
-            <pre>
+            <pre><code class="language-javascript">
                 var bar_bg = $("#scrollbar-bg");
                 bar_bg.css("min-width", $(document).width() + "px");
 
@@ -98,7 +99,7 @@
 
                     bar.css("width", bw + "%");
                 });
-            </pre>
+            </code></pre>
             
             <h3>Now just scroll down and enjoy the effect!</h3>
         </div>
@@ -118,5 +119,6 @@
             </div>
         </div>
         <script src="js/purejavascript.js"></script>
+        <script src="js/prism.js"></script>
     </body>    
 </html>
