@@ -5,6 +5,7 @@ A lightweight custom javascript scrollbar plug-in.
 | Custom javascript scroll bar |
 ********************************
 
+[Demo](http://andreasvirkus.github.io/skunk-scroll)
 
  - A small script that deploys a horizontal scalable scroll bar at the top of the page.
  - To use:
