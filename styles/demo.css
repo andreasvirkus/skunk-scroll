@@ -19,12 +19,16 @@ body {
     margin-left: 7vw;
 }
 
-h2, h3 {
+h1, h2, h3 {
   font-family:'Maven Pro', sans-serif;
   font-weight:300;
   font-size:1.5em;
   margin-top:2em;
-    color: #fff;
+  color: #fff;
+}
+
+h1 {
+ font-size: 2em;   
 }
 
 pre, xmp {
@@ -33,6 +37,7 @@ pre, xmp {
 }
 
 p {
+  font-family:'Maven Pro', sans-serif;
   color:#fff;
   font-size:0.9em;
 }
@@ -71,6 +76,10 @@ p {
     -o-transition: all ease-in-out .3s;
 	transition: all ease-in-out .3s;
 }
+.logo p {
+    font-family: 'Josefin Slab', serif;
+}
+
 .element{    
     position: absolute;
     display:block;
@@ -97,7 +106,7 @@ p {
     font-size:64px;
     color:#fff;
     top:30px;
-    left:81px;
+    left:77px; /* 81 */
 }
 .logo:hover #sdew_2 p {
     color: #E16036;
@@ -106,5 +115,5 @@ p {
     font-size:64px;
     color:#fff;
     top:40px;
-    left:96px;
+    left:92px; /* 96 */
 }
