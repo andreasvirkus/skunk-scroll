@@ -13,7 +13,8 @@ body {
 
 .code {
     width: 800px;
-    margin-left: 7vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1, h2, h3 {
