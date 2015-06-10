@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Slab:100,200,400);
 
 body {
-    background-color: #111;
+    background-color: #ECF0F1;
 }
 body {
     background-image: url('http://subtlepatterns.com/patterns/crissXcross.png');
@@ -24,7 +24,7 @@ h2, h3 {
   font-weight:300;
   font-size:1.5em;
   margin-top:2em;
-    color: #fff;
+    color: #111;
 }
 
 pre, xmp {
@@ -33,7 +33,7 @@ pre, xmp {
 }
 
 p {
-  color:#fff;
+  color:#222;
   font-size:0.9em;
 }
 
