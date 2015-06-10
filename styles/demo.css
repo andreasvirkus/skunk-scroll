@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:100,200,400);
+
+body {
+    background-color: #111;
+}
+body {
+    background-image: url('http://subtlepatterns.com/patterns/crissXcross.png');
+    margin: 0px;
+    padding: 0px;
+}
+
+#fakeHeight {
+    height: 2000px;
+    width: 1px;   
+}
+
+.code {
+    width: 800px;
+    margin-left: 7vw;
+}
+
+h2, h3 {
+  font-family:'Maven Pro', sans-serif;
+  font-weight:300;
+  font-size:1.5em;
+  margin-top:2em;
+    color: #fff;
+}
+
+pre, xmp {
+  background:#ededed;
+  padding:1em;
+}
+
+p {
+  color:#fff;
+  font-size:0.9em;
+}
+
+#f {
+    background: #222;    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer-tag {
+    color: white
+}
+#footer-tag a {
+    color: white;   
+}
+#footer-tag a:hover {
+    color: #E16036;   
+}
+
+/* logo */
+.logo {
+    width:150px;
+    height:100px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#000;
+    font-family: 'Josefin Slab', serif;
+    box-sizing:border-box;
+    position:relative;
+    overflow:hidden;
+    font-size:64px;
+    
+	-webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+	transition: all ease-in-out .3s;
+}
+.element{    
+    position: absolute;
+    display:block;
+    margin:0;
+    padding:0;
+    white-space:nowrap;
+}
+.element p{
+    line-height:1;
+    margin:0;
+    padding:0;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+}
+#sdew_1{
+    font-size:64px;
+    color:#fff;top:1px;
+    left:50px;
+}
+#sdew_2{
+    font-size:64px;
+    color:#fff;
+    top:30px;
+    left:81px;
+}
+.logo:hover #sdew_2 p {
+    color: #E16036;
+}
+#sdew_3{
+    font-size:64px;
+    color:#fff;
+    top:40px;
+    left:96px;
+}
