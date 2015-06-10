@@ -10,8 +10,8 @@ A lightweight custom javascript scrollbar plug-in.
  - To use:
   * Include the css and js files.
   * Make sure to have a div element in your page's body with no parent divs. 
-  * The div should have a class named "bar".
-  * Inside the div "bar", have a child div with the class "bar-bg".
+  * The div should have an ID named "scrollbar".
+  * Inside #scrollbar, have a child div with the ID "scrollbar-bg".
   * You're all good to go! You can change the bar's colour in CSS
 
 ********************************
